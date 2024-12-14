@@ -3,6 +3,41 @@
 <head>
     
     <title>Flexbox Calculator </title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .calculator {
+            background-color: #3a3434;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(215, 8, 8, 0.2);
+            width: 340px;
+            height: 30;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 100px;
+        }
+        
+        .display {
+            width: 100%;
+            height: 50px;
+            text-align: right;
+            font-size: 32px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #e9f9cd;
+        }
+    </style>    
 </head>
 <body>
     <div class="calculator">
